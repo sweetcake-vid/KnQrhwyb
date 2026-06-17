@@ -1,0 +1,94 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nah you picked the WORST time</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+    width:100%;
+    min-height:100vh;
+    background:#000;
+    overflow-x:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.video-container{
+    width:100%;
+    max-width:780px;
+}
+
+.video-player{
+    border-radius:18px;
+    overflow:hidden;
+
+    box-shadow:
+        0 0 20px rgba(255,255,255,.03),
+        0 20px 60px rgba(0,0,0,.8);
+}
+
+video{
+    width:100%;
+    display:block;
+    background:#000;
+}
+
+@media (max-width:768px){
+
+    body{
+        padding:10px;
+    }
+
+    .video-container{
+        max-width:100%;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<div class="video-container">
+    <div class="video-player">
+
+        <video
+            controls
+            playsinline
+            preload="metadata">
+
+            <source
+                src="https://cdn.videy.co/CvcHheDL1.mp4"
+                type="video/mp4">
+
+            Your browser does not support HTML5 video.
+
+        </video>
+
+    </div>
+</div>
+
+<!-- Adsterra Popunder -->
+<script src="https://vowsavageskim.com/c5/e6/1a/c5e61ace0b594ad577dc6bf7ed2717be.js"></script>
+
+</body>
+</html>
+```
